@@ -19,7 +19,6 @@ module.exports = {
 
     proxy: {
       '/apis': {
-        // target: 'http://192.168.1.56:8989/elm',// 要跨域的域名
         target: '',// 要跨域的域名
         secure:false,
         changeOrigin: true, // 是否开启跨域
